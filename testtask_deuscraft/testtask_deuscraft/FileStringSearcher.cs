@@ -32,7 +32,11 @@ namespace testtask_deuscraft
 			Encoding = targetFile.CurrentEncoding;
 		}
 
-		public SortedSet<int> GetEntryArray()
+		/// <summary>
+		/// Получение множества с местами вхождений искомой строки в файл, в байтах
+		/// </summary>
+		/// <returns>The entry array.</returns>
+		public SortedSet<int> GetSearchStringEntrySet()
 		{
 			SortedSet<int> entrySet = new SortedSet<int>();
 			int currentIndex = 0;

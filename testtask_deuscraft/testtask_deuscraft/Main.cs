@@ -9,7 +9,7 @@ namespace testtask_deuscraft
 		public static void Main (string[] args)
 		{
 			ConsoleInterpreter interpreter = new ConsoleInterpreter (args);
-			TaskPerformer.PerformTask (interpreter);
+			TaskPerformer.PerformInterpreterTask (interpreter);
 		}
 	}
 }

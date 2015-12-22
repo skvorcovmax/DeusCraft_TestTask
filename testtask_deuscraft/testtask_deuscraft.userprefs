@@ -1,14 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="testtask_deuscraft/ConsoleInterpreter.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="testtask_deuscraft/CheckSummEvaluator.cs">
     <Files>
-      <File FileName="testtask_deuscraft/Main.cs" Line="11" Column="40" />
-      <File FileName="testtask_deuscraft/AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="testtask_deuscraft/FileStringSearcher.cs" Line="55" Column="5" />
-      <File FileName="testtask_deuscraft/FileWordsCounter.cs" Line="1" Column="1" />
-      <File FileName="testtask_deuscraft/CheckSummEvaluator.cs" Line="29" Column="4" />
-      <File FileName="testtask_deuscraft/ConsoleInterpreter.cs" Line="13" Column="33" />
-      <File FileName="testtask_deuscraft/TasksPerformer.cs" Line="128" Column="5" />
+      <File FileName="testtask_deuscraft/TasksPerformer.cs" Line="1" Column="1" />
+      <File FileName="testtask_deuscraft/FileStringSearcher.cs" Line="39" Column="48" />
+      <File FileName="testtask_deuscraft/CheckSummEvaluator.cs" Line="35" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

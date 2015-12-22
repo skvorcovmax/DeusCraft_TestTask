@@ -22,17 +22,22 @@ namespace testtask_deuscraft
 			BinaryReader = binaryReader;
 		}
 
+		/// <summary>
+		/// Вычисление суммы всех 32-битных слов в файле
+		/// </summary>
+		/// <returns>The check summ.</returns>
 		public long EvaluateCheckSumm()
 		{
+			const int wordSizeInBytes = 4;
 			long checkSumm = 0;
  
 			long length = BinaryReader.BaseStream.Length;
 			int position = 0;
-			while (position < length - 100)
+			while (position < length - 1)
 			{
 				int integerFromFile = BinaryReader.ReadInt32();
 				checkSumm += integerFromFile;
-				position += 4;
+				position += wordSizeInBytes;
 			}
 
 			return checkSumm;

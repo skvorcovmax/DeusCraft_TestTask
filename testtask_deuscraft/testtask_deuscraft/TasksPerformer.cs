@@ -90,7 +90,7 @@ namespace testtask_deuscraft
 			StreamReader streamReader = new StreamReader (fileStream);
 			FileStringSearcher searcher = new FileStringSearcher (streamReader, searchString);
 
-			SortedSet<int> entrySet = searcher.GetEntryArray ();
+			SortedSet<int> entrySet = searcher.GetSearchStringEntrySet ();
 
 			foreach (int value in entrySet)
 			{

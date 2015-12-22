@@ -58,7 +58,7 @@ namespace testtask_deuscraft
 		}
 
 		/// <summary>
-		/// Получение искомой строки из аргументов
+		/// Получение строки для поиска из аргументов
 		/// </summary>
 		/// <returns>The search string.</returns>
 		public String GetSearchString()
